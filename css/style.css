@@ -95,3 +95,26 @@ main {
 .calculator {
   border-top: 5px solid var(--calculator-col);
 }
+
+@media (max-width: 873px) {
+  .header-wrapper {
+    padding: 0;
+  }
+
+  .heading-text {
+    font-size: 1.5rem;
+  }
+
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .col-1-wrapper, 
+  .col-2-wrapper, 
+  .col-3-wrapper {
+    align-items: stretch;
+  }
+}
