@@ -1,0 +1,33 @@
+:root {
+  /* ### Primary */
+  --supervisor-col: hsl(180, 62%, 55%);
+  --team-builder-col: hsl(0, 78%, 62%);
+  --karma-col: hsl(34, 97%, 64%);
+  --calculator-col: hsl(212, 86%, 64%);
+
+
+  /* ### Neutral */
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-grey: hsl(0, 0%, 98%);
+
+  /* Font */
+  --fs: 0.9375rem;
+  --ff: 'Poppins', sans-serif;
+  --fw-extralight: 200;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-flow {
+  display: grid;
+}
