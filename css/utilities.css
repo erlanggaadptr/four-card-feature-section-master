@@ -7,9 +7,9 @@
 
 
   /* ### Neutral */
-  --very-dark-blue: hsl(234, 12%, 34%);
-  --grayish-blue: hsl(229, 6%, 66%);
-  --very-light-grey: hsl(0, 0%, 98%);
+  --bold-text-col: hsl(234, 12%, 34%);
+  --light-text-col: hsl(229, 6%, 66%);
+  --bg-col: hsl(0, 0%, 98%);
 
   /* Font */
   --fs: 0.9375rem;
