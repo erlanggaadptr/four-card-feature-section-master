@@ -31,3 +31,12 @@
 .grid-flow {
   display: grid;
 }
+
+.bold-text {
+  color: var(--bold-text-col);
+  font-weight: var(--fw-semibold);
+}
+.light-text {
+  color: var(--light-text-col);
+  font-weight: var(--fw-extralight);
+}
